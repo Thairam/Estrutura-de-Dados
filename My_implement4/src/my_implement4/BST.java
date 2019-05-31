@@ -44,7 +44,7 @@ public class BST implements BST_IF {
         }
         return node;
     }    
-    //Debugar e descobrir o erro
+
     public void remover(int element, BST node){
         if(node.valor == element){
             //Remove nó folha.
